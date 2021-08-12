@@ -1,0 +1,120 @@
+body {
+    display: block;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 200%;
+}
+
+
+
+.first-container {
+    margin:0;
+    background-color: #f1c573;
+    padding: 40px 0;
+}
+.me{
+    width: 20%;
+    border-radius: 15px;
+}
+
+div {
+    display: block;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 2;
+}
+.intro {
+    width: 30%;
+    margin: auto;
+}
+.skill-row {
+    width: 50%;
+    margin: 150px auto;
+    text-align: left;
+    border: 1px;
+}
+.programming-png {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+a {
+    color: 40514E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.intro {
+    width: 30%;
+    margin: auto;
+}
+.responsive-png {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.name {
+    font-family: Snell Roundhand, cursive;
+    color: #ffffff;
+}
+.text {
+    color: #e97f28;
+}
+/* Features
+===================*/
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px 0;
+    
+}
+
+.features__item {
+    width: 120px;
+    padding: 0 30px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.features__icon {
+    margin-bottom: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.nav {
+   
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .copyright{
+    background-color: #f1c573;
+    padding: 50px 0;
+    margin-bottom: 0;
+    font-size: 16px;
+  }
